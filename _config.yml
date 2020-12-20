@@ -13,10 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Nathan Cho
+title: ntcho
+title_separator: "|"
+logo: "/assets/images/128x128.png"
 email: ntcho13@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Records of what I learned and experienced.
+description: "Computer Science & Imaging Art stuffs from Nathan Cho."
 instagram_username: nt.cho
 github_username: ntcho
 minimal_mistakes_skin: dark
@@ -56,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Nathan Cho"
   avatar : "/assets/images/bio-joshua-tree.jpg"
   bio    : "I love making stuffs that I love."
   links:
