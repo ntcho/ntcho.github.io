@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: ntcho
 title_separator: "|"
-logo: "/assets/images/128x128.png"
+logo: "/assets/images/logo-small.png"
 email: ntcho13@gmail.com
 description: "Computer Science & Imaging Art stuffs from Nathan Cho."
 instagram_username: nt.cho
@@ -30,7 +30,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: KR # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
