@@ -9,6 +9,8 @@ tags:
   - APK
 ---
 
+Decompiling and recompiling an APK can be easily done using __Apktool__.
+
 # Problem
 
 You have an `.apk` file that you want to __view/edit__ these following contents:
@@ -26,16 +28,11 @@ This post is not intended for piracy and other non-legal uses. This post could b
 
 `.apk` file that you want to decompile.
 
-<details>
-<summary>
-Don't have the <code>.apk</code> file?
-</summary>
+#### Don't have the `.apk` file?
 
 If the app is listed on the Google Play Store, you can use websites such as [apkpure.com](https://m.apkpure.com), [apkmirror.com](https://www.apkmirror.com).
 
 If it's not listed but installed on your Android device, you can use APK extracting apps such as [Apk Extractor](https://play.google.com/store/apps/details?id=com.ext.ui&hl=en) to get the `.apk` file for the app.
-</details>
-<br>
 
 > APK decompiliation using Apktool might not work properly for apps encrypted with [ProGuard](https://developer.android.com/studio/build/shrink-code#enable) or other methods.
 
