@@ -105,8 +105,6 @@ Open [APK Decompiler](http://www.javadecompilers.com/apk) on your browser, and c
 
 After the processing is done, download the results by clicking on ***Save*** button. Download the `.zip` file to the project folder and unzip it.
 
-> I recommend keeping both versions from _Apktool_ and _APK Decompiler_ in order to be able to trace resource usage within the code.
-
 ### Step 3. Recompiling the app
 
 Recompile `\app` into `app.apk` using Apktool.
