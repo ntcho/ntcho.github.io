@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+👋 Hi! My name is Nathan.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I currently live near __Seoul, South Korea__ and I'm now serving my military duty for my country until July 2022.
+
+I've built multiple Android apps and web services so far, and I'm exploring the broader world of computer science now. 🚀
+
+You can find me on [GitHub](https://github.com/ntcho), [Instagram](https://instagram.com/nt.cho) and [YouTube](https://youtube.com/nathancho). Also I have [berict.com](https://berict.com) as my personal website, and you can see more of my work and experiences there.
