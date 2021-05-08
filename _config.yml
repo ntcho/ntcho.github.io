@@ -17,7 +17,7 @@ title: ntcho
 title_separator: "|"
 logo: "/assets/images/logo-small.png"
 email: ntcho13@gmail.com
-description: "Computer Science & Imaging Art stuffs from Nathan Cho."
+description: "Computer Science & Visual Art from Nathan."
 instagram_username: nt.cho
 github_username: ntcho
 minimal_mistakes_skin: dark
@@ -61,24 +61,33 @@ author:
   avatar : "/assets/images/bio-joshua-tree.jpg"
   bio    : "I love making stuffs that I love."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://berict.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ntcho"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://github.com/ntcho"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/4524257/ntcho"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ntcho"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://youtube.com/nathancho"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/nt.cho"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/4524257/ntcho"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/nathancho"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://berict.com"
 
 defaults:
   # _posts
