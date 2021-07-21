@@ -1,5 +1,5 @@
 ---
-title: "Decompiling an APK"
+title: "Modifying an APK File"
 date: 2021-04-30T20:50:00-04:00
 categories:
   - Software
@@ -11,7 +11,7 @@ tags:
 
 Decompiling and recompiling an APK can be easily done using __Apktool__.
 
-# Problem
+# 🧾 Problem
 
 You have an `.apk` file that you want to __view/edit__ these following contents:
 
@@ -22,9 +22,9 @@ You have an `.apk` file that you want to __view/edit__ these following contents:
 This post is not intended for piracy and other non-legal uses. This post could be used for localizing, adding features, supporting custom platforms, analyzing applications.
 {: .notice--warning}
 
-# Solution
+# 💡 Solution
 
-## Materials needed
+## 🛠 Materials needed
 
 `.apk` file that you want to decompile.
 
@@ -36,7 +36,7 @@ If it's not listed but installed on your Android device, you can use APK extract
 
 > APK decompiliation using Apktool might not work properly for apps encrypted with [ProGuard](https://developer.android.com/studio/build/shrink-code#enable) or other methods.
 
-## Prerequisites
+## 📚 Prerequisites
 
 You would need basic knowledge of using the Android SDK and how an Android app is built.
 
@@ -66,7 +66,7 @@ If you intend to analyze the source codes such as Java classes, you need to use 
 
 > I recommend using both __Apktool__ and __APK decompiler__ in order to trace which resource is used where and how.
 
-## Step-By-Step Guide
+## 📇 Step-By-Step Guide
 
 ### Step 1. Preparing project folder
 
