@@ -36,7 +36,8 @@ If the app is listed on the Google Play Store, you can use websites such as [apk
 
 If it's not listed but installed on your Android device, you can use APK extracting apps such as [Apk Extractor](https://play.google.com/store/apps/details?id=com.ext.ui&hl=en) to get the `.apk` file for the app.
 
-Warning: APK decompiliation using Apktool might not work properly for apps encrypted with [ProGuard](https://developer.android.com/studio/build/shrink-code#enable) or other methods. {: .notice--warning}
+Warning: APK decompiliation using Apktool might not work properly for apps encrypted with [ProGuard](https://developer.android.com/studio/build/shrink-code#enable) or other methods.
+{: .notice--warning}
 
 ## 📚 Prerequisites
 
@@ -46,15 +47,18 @@ You would need basic knowledge of using the Android SDK and how an Android app i
 
 At least __Java 1.8__ should be installed to use Apktool. If you intend to rebuild the app, you would need __JDK__ to use the command `keytool` and `jarsigner`.
 
-To check your Java version, run `java -version` on command prompt. To install Java, click [here](https://java.com/download/). {: .notice}
+To check your Java version, run `java -version` on command prompt. To install Java, click [here](https://java.com/download/).
+{: .notice}
 
-To install JDK, click [here](https://www.oracle.com/java/technologies/javase-downloads.html). {: .notice}
+To install JDK, click [here](https://www.oracle.com/java/technologies/javase-downloads.html).
+{: .notice}
 
 ### [Apktool](https://ibotpeaches.github.io/Apktool/)
 
 Click [here](https://ibotpeaches.github.io/Apktool/install/) to learn how to install __Apktool__ for Windows, Linux and macOS.
 
-If you want to use the command `apktool` globally, you can install Apktool on `C:/Windows`. But if you plan to only use it for a short time, you can install Apktool on your project folder to only use it in the folder. {: .notice}
+If you want to use the command `apktool` globally, you can install Apktool on `C:/Windows`. But if you plan to only use it for a short time, you can install Apktool on your project folder to only use it in the folder.
+{: .notice}
 
 #### [Apktool Online](http://www.javadecompilers.com/apktool) _(optional)_
 
@@ -66,7 +70,8 @@ If you intend to build the app with the changes you made, you need to install Ap
 
 If you intend to analyze the source codes such as Java classes, you need to use [dex2jar compiler](https://sourceforge.net/projects/dex2jar/files/). You can use it online from [here](http://www.javadecompilers.com/apk).
 
-__Tip__: I recommend using both __Apktool__ and __APK decompiler__ in order to trace which resource is used where and how. {: .notice--info}
+__Tip__: I recommend using both __Apktool__ and __APK decompiler__ in order to trace which resource is used where and how.
+{: .notice--info}
 
 ## 📇 Step-By-Step Guide
 
@@ -83,7 +88,8 @@ proj
 +-- apktool.jar
 ```
 
-In this tutorial, I installed the Apktool locally in the project folder. Therefore `apktool.bat` and `apktool.jar` exists in the same folder. {: .notice}
+In this tutorial, I installed the Apktool locally in the project folder. Therefore `apktool.bat` and `apktool.jar` exists in the same folder.
+{: .notice}
 
 ### Step 2. Decompiling the `.apk` file
 
@@ -93,7 +99,8 @@ Decompile `app.apk` using Apktool.
 .\apktool.bat d app.apk
 ```
 
-In this tutorial, I used Windows PowerShell for command prompt. {: .notice}
+In this tutorial, I used Windows PowerShell for command prompt.
+{: .notice}
 
 After execution, you will see the `\app` folder created by Apktool. In the folder, you can see all the resources such as `AndroidManifest.xml` and the resource directory `\res` and its contents in original form.
 
@@ -127,7 +134,8 @@ keytool -genkey -v -keystore release.keystore -alias alias_name -keyalg RSA -key
 
 Enter password, name, organization information, address for the new keystore. This will generate `release.keystore`, and this will be used to sign your new app.
 
-The password will be used as a passphrase to sign the app. {: .notice--warning}
+The password will be used as a passphrase to sign the app.
+{: .notice--warning}
 
 #### Step 3.2. Signing the app
 
@@ -143,4 +151,5 @@ Enter the passphrase for your keystore. This will sign and update the apk file `
 
 Locate and install the apk file `\app\dist\app.apk` to your device of choice.
 
-If you don't see changes after installing the app, double check whether you installed the updated version in `\dist`, not the original APK file.  {: .notice--info}
+If you don't see changes after installing the app, double check whether you installed the updated version in `\dist`, not the original APK file. 
+{: .notice--info}

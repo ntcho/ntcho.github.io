@@ -49,7 +49,8 @@ You need __Windows 10 Pro or higher__ in order to connect with Remote Desktop Pr
 
 You need a GPU or its driver supporting __DirectX 11 or higher__. And to use enhanced graphics on your Remote Desktop session, your system needs to support RemoteFX.
 
-__Note__: Most of modern GPUs and Windows 10 system supports both. {: .notice--info}
+__Note__: Most of modern GPUs and Windows 10 system supports both.
+{: .notice--info}
 
 ### 📱 Client application
 
@@ -77,13 +78,15 @@ By default, the display adapter driver for Remote Desktop connection is `WDDM`. 
 
 Press `Win + R` to open `Run`. Type `gpedit.msc` and press `OK`.
 
-__Note__: You can also search for `Group Policy` or `gpedit` on the start menu. {: .notice--info}
+__Note__: You can also search for `Group Policy` or `gpedit` on the start menu.
+{: .notice--info}
 
 ### Step 2. Configure _Remote Session Environment_ settings
 
 In order to achieve smooth experience, we can compress the image from the host PC to reduce the bandwith, which will result in more frames per second.
 
-__Note__:  I recommend to set all the settings as I did for maximum framerate, but you can fine tune for your use case. {: .notice--success}
+__Note__:  I recommend to set all the settings as I did for maximum framerate, but you can fine tune for your use case.
+{: .notice--success}
 
 #### Step 2.1. Locate _Remote Session Environment_ folder
 
@@ -93,7 +96,8 @@ Navigate to __Computer Configuration__ – __Administrative Templates__ – __Co
 
 In this folder, you will find all the options you can modify to fine tune your Remote Desktop experience.
 
-__Note__:  The settings in the screenshot above is frame rate optimized settings. You can follow these settings if you are looking for smoothest experience over better image quality. {: .notice--success}
+__Note__:  The settings in the screenshot above is frame rate optimized settings. You can follow these settings if you are looking for smoothest experience over better image quality.
+{: .notice--success}
 
 #### Disable _Use WDDM graphics display driver for Remote Desktop Connections_
 
@@ -101,7 +105,8 @@ __Note__:  The settings in the screenshot above is frame rate optimized settings
 
 By disabling this policy setting, Remote Desktop Connections will __not__ use WDDM graphics display driver. In this case, the Remote Desktop Connections will use XDDM graphics display driver.
 
-__⚠ Warning:__ This policy setting change requires restarting the host PC. {: .notice--warning}
+__⚠ Warning:__ This policy setting change requires restarting the host PC.
+{: .notice--warning}
 
 #### Enable _Use hardware graphics adapters for all Remote Desktop Services sessions_
 
@@ -115,7 +120,8 @@ By enabling this policy setting, all Remote Desktop Services sessions use the ha
 
 By enabling this policy setting, RemoteApp programs will use advanced graphics, including support for transparency, live thumbnails, and seamless application moves.
 
-__Note__: This policy setting applies only to _RemoteApp programs_ and does not apply to remote desktop sessions. {: .notice--info}
+__Note__: This policy setting applies only to _RemoteApp programs_ and does not apply to remote desktop sessions.
+{: .notice--info}
 
 #### Enable _Prioritize H.264/AVC 444 graphics mode for Remote Desktop Connections_
 
@@ -167,7 +173,8 @@ As mentioned above, I prioritized frame rates over image quality, so I selected 
 
 By disabling this policy setting, Remote Desktop Connections will ***not*** use WDDM graphics display driver. In this case, the Remote Desktop Connections will use XDDM graphics display driver. This will enable you to utilitize the performance of your GPU installed on the host PC.
 
-__⚠ Warning:__ This policy setting change requires restarting the host PC. {: .notice--warning}
+__⚠ Warning:__ This policy setting change requires restarting the host PC.
+{: .notice--warning}
 
 ### Step 3. Configure _RemoteFX_ settings
 
@@ -179,11 +186,12 @@ __Microsoft RemoteFX__ is a set of technologies that enhance visual experiences 
 
 For example, if you are trying to send 1080p 60fps session over the internet without any compression, you would need almost 3 Gbit/s network connection. But with RemoteFX configured, the host PC uses an efficient compression algorithm to reduce the bandwith usage, and also processes it with the installed hardware. And also, since the graphics are rendered from the server, you can use graphic intense applications over Remote Desktop.
 
-Read more: [RemoteFX on Wikipedia](https://en.wikipedia.org/wiki/RemoteFX) {: .notice}
+Read more: [RemoteFX on Wikipedia](https://en.wikipedia.org/wiki/RemoteFX)
+{: .notice}
 
 #### Step 3.1. Locate _RemoteFX for Windows Server 2008 R2_ folder
 
-![Local Group Policy Editor Window, RemoteFX for Windows Server 2008 R2](https://user-images.githubusercontent.com/13298429/126343168-64dddf67-417e-4b91-b9d8-bb9cff130c91.png)
+![Local Group Policy Editor Window, RemoteFX for Windows Server 2008 R2](https://user-images.githubusercontent.com/13298429/126506569-c5265f65-e998-4131-a8ee-02b87c84c0e4.png)
 
 Navigate to __Computer Configuration__ – __Administrative Templates__ – __Control Panel__ – __Remote Desktop Services__ – __Remote Desktop Session Host__ – __Remote Session Environment__ - __RemoteFX for Windows Server 2008 R2__.
 
@@ -227,4 +235,5 @@ The problems could be one or more of the following:
 - Driver problems for GPU installed on host PC
 - Didn't restart the host PC after configuration
 
-🚩 Disclaimer: This post was inspired from [this post by _ceol_](https://m.blog.naver.com/qhagosk0277/221957885625). {: .notice}
+🚩 Disclaimer: This post was inspired from [this post by _ceol_](https://m.blog.naver.com/qhagosk0277/221957885625).
+{: .notice}
