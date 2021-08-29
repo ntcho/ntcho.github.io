@@ -115,3 +115,14 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-VZEYJ253C9"
+    anonymize_ip: false # default
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
