@@ -1,0 +1,32 @@
+/* Smaller margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5em 0 0.5em;
+}
+
+/* Smaller fonts */
+@media (min-width: 48em) {
+  html {
+    font-size: 1em;
+  }
+}
+@media (min-width: 64em) {
+  html {
+    font-size: 1em;
+  }
+}
+@media (min-width: 80em) {
+  html {
+    font-size: 1.15em;
+  }
+}
+
+/* Smaller paragraph margin */
+p { margin-bottom: 0.7em; }
+
+/* Blockquote margin */
+blockquote { margin: 0.7em 0; }
