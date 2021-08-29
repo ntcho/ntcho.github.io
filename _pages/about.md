@@ -17,7 +17,7 @@ I've built multiple mobile apps and web services so far, and I'm exploring the b
 
 I inspire to utilitize the power of computer to improve everyone's life! I wonder and imagine how far we, as humans, will be in 10 years.
 
-# ✨ Other stuffs
+# ✨ Other things I'm interested in
 
 And also, I love videography and photography! Capturing beautiful moments and telling interesting stories always excites me. 🎥📸
 

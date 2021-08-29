@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Nathan Cho"
   avatar : "/assets/images/bio-joshua-tree.jpg"
-  bio    : "I love making stuffs that I love."
+  bio    : "I love making things that I love."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
