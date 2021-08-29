@@ -14,7 +14,7 @@ tags:
 
 국방부에서 개최한 군장병 오픈소스 해커톤에 선발되게 된 과정입니다.
 
-![2021 OSAM Hackathon Thumbnail](https://user-images.githubusercontent.com/13298429/131220551-261e1532-f9de-4c67-8ef1-e1a404b2b3f3.png)
+![2021 OSAM Hackathon Thumbnail](https://user-images.githubusercontent.com/13298429/131220551-261e1532-f9de-4c67-8ef1-e1a404b2b3f3.png){: .align-center}
 
 # 💻 군장병 공개SW 온라인 해커톤이란?
 
@@ -34,13 +34,13 @@ tags:
 
 **참가 대상**: 온라인 우수 교육생으로 선발된 군장병
 
-![2021 OSAM Hackathon Prize List](https://user-images.githubusercontent.com/13298429/131234057-0726b242-6103-4a36-83be-8db69a69f2e2.png)
+![2021 OSAM Hackathon Prize List](https://user-images.githubusercontent.com/13298429/131234057-0726b242-6103-4a36-83be-8db69a69f2e2.png){: .align-center}
 
 과학기술정보통신부 장관상, 국방부 장관상 등 여러가지 상장을 수여하고 총 12팀이 수상을 하게 됩니다.
 
 # 🧐 참가 과정
 
-![2021 OSAM Hackathon Scoring System](https://user-images.githubusercontent.com/13298429/131220720-ce56a31a-8d00-4ef4-89a7-30f1e062d850.png)
+![2021 OSAM Hackathon Scoring System](https://user-images.githubusercontent.com/13298429/131220720-ce56a31a-8d00-4ef4-89a7-30f1e062d850.png){: .align-center}
 
 해커톤 참가자 선발은 해커톤 필수과정 이론평가 점수 50%, 코딩테스트 점수 25%, 개발계획서 점수 25%를 합산 한 점수로 이루어집니다.
 
@@ -48,7 +48,7 @@ tags:
 
 ## ✍️ 해커톤 필수과정 이론평가
 
-![2021 OSAM Hackathon Application Page](https://user-images.githubusercontent.com/13298429/131220651-9307938c-5e59-4718-ae88-2789df959583.png)
+![2021 OSAM Hackathon Application Page](https://user-images.githubusercontent.com/13298429/131220651-9307938c-5e59-4718-ae88-2789df959583.png){: .align-center}
 
 Web, App, IoT, Cloud, AI 분야 중 해커톤에 지원할 분야의 강의를 듣고 홈페이지에서 이론 평가 시험을 응시하면 됩니다.
 
