@@ -1,6 +1,11 @@
 ---
 title: "Why Project Euler?"
 date: 2021-06-14T20:00:00+09:00
+toc: true
+toc_sticky: true
+header:
+  teaser: "https://user-images.githubusercontent.com/13298429/131294688-7640d13a-e37c-47e7-935c-648560cae551.jpg"
+  og_image: "https://user-images.githubusercontent.com/13298429/131294688-7640d13a-e37c-47e7-935c-648560cae551.jpg"
 categories:
   - Learning
 tags:

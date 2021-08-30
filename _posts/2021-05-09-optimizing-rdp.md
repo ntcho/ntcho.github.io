@@ -3,6 +3,9 @@ title: "Boost Your Remote Desktop Performance"
 date: 2021-05-09T13:09:00+09:00
 toc: true
 toc_sticky: true
+header:
+  teaser: "https://user-images.githubusercontent.com/13298429/131291498-6240e3af-9567-466d-ae11-024fdd3e1ee8.jpg"
+  og_image: "https://user-images.githubusercontent.com/13298429/131291498-6240e3af-9567-466d-ae11-024fdd3e1ee8.jpg"
 categories:
   - Software
 tags:
